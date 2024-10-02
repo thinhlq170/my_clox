@@ -2,7 +2,7 @@ CC = gcc
 
 CFLAGS = -Wall -Iinc
 
-SRCS = src/main.c src/chunk.c src/memory.c src/debug.c
+SRCS = src/main.c src/chunk.c src/memory.c src/debug.c src/value.c
 OBJS = $(SRCS:.c=.o)
 
 TARGET = clox
